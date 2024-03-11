@@ -1,3 +1,13 @@
+// document.addEventListener("DOMContentLoaded", function (event) {
+const num = document.querySelector(".num");
+let span = "";
+for (let i = 1; i < 13; i++) {
+  span += `<span style="--i:${i}" > ${i}
+ 
+  </span>`;
+}
+num.innerHTML = span;
+// });
 let hr = document.querySelector("#hr");
 let mn = document.querySelector("#mn");
 let sc = document.querySelector("#sc");
